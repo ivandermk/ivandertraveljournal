@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Travel Journal</title>
+
+    <style>
+        body {
+            background-color: #f9eee0;
+            font-size: 125px;
+            color: #f9eee0;
+            margin: 0;
+            padding: 0;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        header {
+            background-color: #4199d9;
+            text-align: center;
+            padding: 75px 0;
+        }
+
+        header a {
+            font-size: 50px;
+            color: #f9eee0;
+            margin: 0 15px;
+            transition: color 0.3s ease;
+        }
+
+        section.cards {
+            display: flex;
+            font-size: 50px;
+            text-align: center;
+            gap: 40px;
+            margin: 80px auto;
+            color: #d35739;
+            margin-top: 50px;
+            flex-wrap: nowrap;
+            max-width: 1200px;
+        }
+
+        .card {
+            background-color: #afdff3;
+            border-radius: 15px;
+
+            box-shadow: 0 4px 12px #4199d9;
+            overflow: hidden;
+            text-align: center;
+            width: 350px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 20px #afdff3;
+        }
+
+        .card img {
+            width: 100%;
+            height: 230px;
+            object-fit: cover;
+        }
+
+        .card a {
+            display: block;
+            padding: 20px;
+            font-size: 28px;
+            font-weight: bold;
+            color: #4199d9;
+            text-decoration: none;
+            background-color: #ffffff;
+            border-top: 1px solid #e0e0e0
+        }
+
+        .card a:hover {
+            text-decoration: underline;
+            color: #afdff3;
+            transition: color 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        My Travel Journal
+    </header>
+    <section class="cards">
+        <div class="card">
+            <img src="download (3).jpg" alt="Venice">
+            <a href="venice.html">Venice</a>
+        </div>
+        <div class="card">
+            <img src="engelberg.jpg" alt="Engelberg">
+            <a href="engelberg.html">Engelberg</a>
+        </div>
+        <div class="card">
+            <img src="download (4).jpg" alt="Paris">
+            <a href="paris.html">Paris</a>
+        </div>
+    </section>
+</body>
+</html>
